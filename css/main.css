@@ -1,0 +1,518 @@
+
+.alex {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    font-weight: 400 !important;
+    letter-spacing: 3.5px !important;
+}
+
+/* From style.css */
+.alex .navbar-brand {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    font-weight: 100 !important;
+    letter-spacing: 3.5px !important;
+    /*Inherited Properties*/
+    -webkit-transition-delay: 0s;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-property: all;
+    -webkit-transition-timing-function: ease;
+    background-color: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: auto;
+    display: block;
+    float: left;
+    font-size: 30px; 
+    height: 60px;
+    line-height: 21px;
+    margin-left: -15px;
+    outline-color: rgb(255, 255, 255);
+    outline-style: none;
+    outline-width: 0px;
+    padding-bottom: 20.5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 18.5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease;
+    width: 259.296875px;
+}
+
+
+.nav-bar{
+    width: 100%;
+    background-color: grey;
+    height: 80px;
+}
+
+.logo{
+    float: left;
+    font-size: 40px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: WHITE;
+    margin:14px;
+    margin-left: 20px;
+}
+.nav-btn{
+    float:right;
+    font-size: 25px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: white;
+    margin:20px;
+    background-color: grey;
+}
+
+.dico-body{
+    background-color: #D9E2E1;
+    width: 100%;
+    height: 100%;
+}
+
+.issue-form{
+    width: 300px;
+    padding: 20px;
+    display: block;
+    border: medium black;
+}
+
+/*^^^From style.css^^^*/
+
+
+.alex-nav{
+    background-color: white !important;
+}
+.navbar-fixed-top.navbar-shrink{
+     padding-bottom: 17px;
+}
+
+a.info-link {
+    color: #aeaeae !important;
+}
+a:hover.info-link{
+    color: #bdb76b !important;
+    text-decoration: none;
+}
+ a:focus.info-link{
+    color: #bdb76b !important;
+    text-decoration: none;
+}
+a {
+    color: #bdb76b !important;
+}
+a:hover {
+    color: #e28964 !important;
+}
+a:focus {
+    color: #e28964 !important;
+    background: white !important;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+    color: #e28964 !important;
+    background: white!important;            
+}
+
+.btn-primary{
+    display:none;
+}
+.alex-hr{
+    width: 100%;
+    border-color: rgb(137, 189, 255);
+    position: fixed;
+    border-width: 3px;
+    margin-bottom: -25px;
+    padding-bottom: 0px;
+    margin-top: 14px;
+
+}
+.alex-header {
+    background-color: white !important;
+}
+
+.alex-title{
+    float:left;
+    margin-left:15px;
+    font-size: 25px !important;
+    color: #65b042;
+    margin-top:60px;
+    margin-bottom: 20px;
+}
+
+/*Info section*/
+header .container{
+    padding-bottom: 0px;
+}
+.alex-github{
+    margin-left:-185px;
+}
+.alex-twitter{
+    margin-left:-130px;
+}
+
+/*Projects section*/
+.alex-block {
+    font-family: "Source Code Pro",monospace !important;
+    color: #aeaeae;
+    font-size: 18px;
+    margin-top:70px;
+    position: relative;
+    float:right;
+    right:20%;
+}
+.alex-row {
+    margin-left:-220px;
+}
+.projects-button a:hover:after{
+    background-color:green;
+    background-image: none;
+}
+.alex-square {
+    display: block;
+    height: 200px;
+    width: 250px;
+    border: grey solid;
+    border-width: 1px;
+    margin:30px;
+    color:grey;
+    float: left;
+}
+.project-name {
+    font-family: "Source Code Pro",monospace !important;
+    color: #aeaeae;
+    font-size: 18px;
+    margin-top:70px;
+    position: relative;
+    float:right;
+    right:20%;
+    opacity: 1 !important;
+}
+
+/*Projects section - background images*/
+
+span.alex-square:hover {
+    opacity: 1; 
+} 
+
+a.box-link {
+    display: block;
+    height: 170px;
+    width: 250px;
+}
+
+a.box-link-hackathon {
+    display: block;
+    height: 230px;
+    width: 250px;
+}
+
+/*newer projects*/
+.profile-pic {
+    background: transparent url(../img/fschulte.jpg) no-repeat 0 0;
+    background-size: cover;    
+}
+.election-2012 {
+    background: transparent url(../img/2012-election.png) no-repeat 0 0;
+    background-size: cover;
+}
+
+.ttcr {
+    background: transparent url(../img/ttcr.png) no-repeat 0 0;
+    background-size: cover;
+}
+
+.luminoso {
+    background: transparent url(../img/luminoso.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+
+.dcu {
+    background: transparent url(../img/dcu.png) no-repeat 0 0;
+    background-size: cover;
+}
+
+.opal {
+    background: transparent url(../img/opal.png) no-repeat 0 0;
+    background-size: cover;
+}
+
+.space-eeg {
+    background: transparent url(../img/space-eeg.png) no-repeat 0 0;
+    background-size: cover;
+}
+
+.impact-mapper {
+    background: transparent url(../img/impactmapper.png) no-repeat 0 0;
+    background-size: cover;
+}
+
+.training-contracts {
+    background: transparent url(../img/training-contracts.png) no-repeat 0 0;
+    background-size: cover;
+}
+
+/*older projects*/
+.cravelabs {
+    background: transparent url(../img/cravelabs2.png) no-repeat 0 0;
+    background-size: cover;
+}
+
+.dropin {
+    background: transparent url(../img/dropin.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+
+.bigger {
+    background: transparent url(../img/bigger.png) no-repeat 0 0;
+    background-size: cover;
+}
+
+.funhouse-fishbowl {
+    background: transparent url(../img/funhousefishbowl.png) no-repeat 0 0;
+    background-size: cover;
+}
+
+.figgygames {
+    background: transparent url(../img/figgygames.png) no-repeat 0 0;
+    background-size: cover;
+}
+
+.dico {
+    background: transparent url(../img/dico.png) no-repeat 0 0;
+    background-size: cover;
+}
+
+.wce {
+    background: transparent url(../img/wce.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+
+.tangominoes {
+    background: transparent url(../img/tangominoes.png) no-repeat 0 0;
+    background-size: cover;
+}
+
+.avevhox {
+    background: transparent url(../img/avevhox.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+
+
+/*Font styling*/
+.alex-company{
+    font-family: "Source Code Pro",monospace !important;
+    color: #aeaeae;
+    font-size: 25px;
+    margin-top:60px;
+    margin-left:30px;
+}
+.alex-position{
+    font-family: "Source Code Pro",monospace !important;
+    font-size: 14px;
+    color: #65b042;
+    background-color: rgb(68,68,68);
+}
+.alex-duties{
+    font-family: "Source Code Pro",monospace !important;
+    font-size: 14px;
+    color: rgb(137, 189, 255);
+    margin-bottom: 5px;
+}
+
+/*ABOUT*/
+.education{
+    /*color: #e28964;*/
+    color: #aeaeae;
+    font-size: 20px;
+    margin-left:50px;
+}
+.alex-school{
+    font-size: 16px;
+    color: rgb(137, 189, 255);
+    margin-left:80px;
+}
+.alex-diploma{
+    color: #aeaeae;
+    font-size: 14px;
+}        
+
+/*Hackathon page*/
+.hackathon-header{
+    color: #aeaeae;
+    font-size: 25px;
+    margin-top:50px;
+    margin-left:30px;
+}
+.hackathon-subheader{
+    color: #e28964;
+    font-size: 20px;
+    margin-left:0px;
+}
+
+
+/*Footer*/
+footer hr{
+    width: 100%;
+    border-color: rgb(137, 189, 255);
+    position: fixed;
+    border-width: 3px;
+    margin-bottom: -25px;
+    padding-bottom: 50px;
+    margin-top: 14px;
+}
+
+footer .footer-above{
+    background-color: white !important;
+}
+/* COLOR KEY:
+ *grey: rgb(68, 68, 68);
+ *blue:  rgb(137, 189, 255);
+ *red:#e28964
+ *green: #65b042
+ *yellow:#bdb76b
+ *light grey: #fff
+ *darker grey: #aeaeae*/
+
+@media (max-width:350px){
+    .alex-company{
+        margin-left:2% !important;
+    }
+    .alex-duties{
+        font-size:12px;
+    }
+    .alex-position{
+        font-size:12px;
+    }
+    .alex-school{
+        margin-left:0px!important;
+    }
+    .project {
+        margin-left: 2%;
+    }
+    span.alex.alex-title.name{
+        margin-bottom: -10px;
+        margin-top: 10px;
+    }
+    .education{
+        margin-top: 20px;
+    }
+    /*Hackathon page*/
+    .hackathon-subheader{
+        font-size: 14px;
+    }
+                   
+}
+@media (max-width:460px){
+    .navbar-default .navbar-toggle .icon-bar{
+        background-color: #bdb76b !important;
+    }
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+        background-color: white !important;
+    }
+    .navbar-fixed-top.navbar-shrink{
+        padding-bottom: 0px;
+    }
+    .alex-hr{
+        width: 100%;
+        border-color: rgb(137, 189, 255);
+        border-width: 3px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        margin-top: 0px;
+    }
+    .alex-title{
+        font-size: 18px !important;
+        margin-bottom: 15px;
+        margin-top: 0px;
+    }
+    #project .alex-title{
+        margin-bottom: -20px;
+        margin-top: 10px;
+    }
+    
+    .alex-row {
+        margin-left:0%;
+    }
+    .alex-block {
+        font-family: "Source Code Pro",monospace !important;
+        color: #aeaeae;
+        font-size: 16px;
+        margin-top:10px;
+        right:0px;
+    }
+    
+    /*PROJECTS - MOBILE*/
+    .project {
+        opacity: 1;
+        margin-top:40px;
+    }
+    
+    span.alex.alex-title.name{
+        margin-bottom: -10px;
+        margin-top: 10px;
+    }
+    .education{
+        margin-top: 20px;
+    }
+
+    /*ABOUT - MOBILE*/
+    .education{
+        /*color: #e28964;*/
+        color: #aeaeae;
+        font-size: 16px;
+        margin-left:25px;
+    }
+    .alex-school{
+        font-size: 14px;
+        margin-left:40px;
+    }
+    .alex-diploma{
+        font-size: 12px;
+    }
+    span.alex.alex-title.name.info{
+        margin-top: -40px !important;
+    }
+    .alex-github{
+        margin-left:-185px;
+    }
+    .alex-twitter{
+        margin-left:-100px;
+    }
+    .alex-company{
+        font-size: 18px;
+        margin-left:9%;
+        margin-right:20px;
+    }
+    
+    /*scroll button - should be deleted*/
+    .scroll-top .btn{
+        width:150px;
+        height:150px;
+    }
+    .btn-primary{
+        background-color: #bdb76b !important;
+        border-color: #bdb76b !important;
+    }
+    .btn .btn-primary{
+        color:black !important;
+    }
+    /*Hackathon page - MOBILE*/
+    .hackathon-subheader{
+        font-size: 14px;
+    }
+    .hackathon-header{
+        font-size: 18px;
+        margin-top:0px !important;
+    }
+    .alex-square {
+        margin-bottom: 10px;
+        /*opacity: 1; */
+    }
+} 
+
+}
+
+section {
+    padding-bottom: 40px !important;
+}
